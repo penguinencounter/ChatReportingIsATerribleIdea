@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "chatreportingisaterribleidea",
+    "version": "${version}",
+    "name": "ChatReporting is a Terrible Idea, Mojang!!",
+    "description": "Proving a point.",
+    "authors": [],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/chatreportingisaterribleidea/icon.png",
+    "environment": "client",
+    "entrypoints": {
+        "client": [
+            "org.penguinencounter.chatreportingisaterribleidea.ChatreportingisaterribleideaClient"
+        ]
+    },
+    "mixins": [
+        "chatreportingisaterribleidea.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.8",
+        "fabric": "*",
+        "minecraft": "1.20-alpha.22.24.a"
+    }
+}
